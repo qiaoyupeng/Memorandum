@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memorandum</string>
+    <string name="action_settings">Settings</string>
+    <string name="listView">ListView</string>
+    <string name="back">&lt;</string>
+    <string name="timeSet">time set</string>
+    <string name="dateText">datetime</string>
+    <string name="search_hint">搜索记录</string>
+    <string name="search_label">搜索</string>
+    <string name="alertName">事件提醒</string>
+    <string name="positiveButton">查看</string>
+    <string name="negativeButton">忽略</string>
+
+</resources>

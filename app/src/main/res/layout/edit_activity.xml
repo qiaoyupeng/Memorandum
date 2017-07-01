@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_blue">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true" >
+        
+       	<Button
+        	android:id="@+id/backButton"
+        	android:layout_width="40dip"
+        	android:layout_height="50dip"
+        	android:text="@string/back" />
+       	
+       	<TextView
+        	android:id="@+id/dateText"
+        	android:layout_width="80dip"
+        	android:layout_height="fill_parent"
+        	android:paddingTop="5dip"
+        	android:text="@string/dateText" />
+
+   	 	<Button
+        	android:id="@+id/timeSet"
+        	style="?android:attr/buttonStyleSmall"
+        	android:layout_width="33dip"
+        	android:layout_height="33dip"
+        	android:background="@drawable/clock" />
+
+    	<TextView
+        	android:id="@+id/timeText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+
+    	<Button
+    	    android:id="@+id/button2"
+    	    style="?android:attr/buttonStyleSmall"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="right"
+    	    android:text="待开发" />
+         
+    </LinearLayout>   
+    
+    <EditText
+        android:id="@+id/editText"
+        android:layout_below="@id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:cursorVisible="true"
+        android:visibility="visible"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:bufferType="normal"
+        android:textColor="#0000ff"/>
+    
+</RelativeLayout>
